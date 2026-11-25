@@ -1,0 +1,42 @@
+# Python virtual environments & cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Java / Maven / Gradle
+target/
+build/
+.gradle/
+*.jar
+*.war
+*.class
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# IDE & Editors
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment & secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Docker volumes & temporary logs
+*.log
+experiments/monitoring/data/
+experiments/results/raw/
